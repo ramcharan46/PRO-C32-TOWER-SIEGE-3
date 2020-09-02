@@ -169,7 +169,7 @@ async function getBackgroundImage(){
    //console.log(hour);
 
    if (hour >= 06 && hour <= 18) {
-     bg = "images/light.jpg";
+     bg = "images/dark.jpg";
    } else {
      bg = "images/dark.jpg";
    }
